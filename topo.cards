@@ -1,0 +1,31 @@
+#do not change the order of the following string
+################################
+##  put your tree name below  ##
+################################
+#PPiPi
+vars
+#gepep_fast4pi_v2
+#Ks_info
+##################################
+##  put your path & file below  ##
+##################################
+#/besfs/groups/psipp/psippgroup/public/pany/Lambdc/sample/inclusiveMC/ana/LL_PPiPi.root
+#/moose/Bes3User/pany/Lambdac/sample/inclusiveMC/ana_inc/LLbar.root
+#/Users/danny/software/beswork/data/mc4260_4pi_1k1pi.root
+#/Users/danny/software/beswork/data/data_fastkkpipi_4420.root
+#/Volumes/data/besIIIwork/uidata/liud/Ks_mc/liud/mc4420_Ks/root/KsMC_0001.root
+/Users/danny/software/beswork/EEKK/data/tmp.root
+
+########################################
+## "0" will ignore as a string below  ##
+########################################
+#TOPO START USE Cut 0
+TOPO START USE Cut 1
+
+abs(costheta1)<0.8 & abs(costheta2)<0.8 & costheta<-0.99 & ep1<0.85 & ep2<0.85 & abs(tof1-tof2)<0.7 & abs(p1-1.001)<0.03 & abs(p2-1.001)<0.03
+
+######################################
+##  put your cut as a string below  ##
+######################################
+#mode2==0&&flag!=1&&deltaE_0>-0.02&&deltaE_0<0.02&&mBC_0>2.278&&mBC_0<2.294
+#recoil_ProtonM_mass<0.6
